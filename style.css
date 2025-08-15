@@ -87,11 +87,42 @@ body {
   flex-direction: column;
   /* line-height: 5px; */
 }
-.why-us h4{
-    margin: 10px 0px;
-    color: white;
+.why-us h4 {
+  margin: 10px 0px;
+  color: white;
 }
-.why-us p{
-    margin: 4px 0px;
-    color: hsl(204, 43%, 93%);
+.why-us p {
+  margin: 4px 0px;
+  color: hsl(204, 43%, 93%);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 30px auto;
+    width: 400px;
+    height: auto;
+    /* border-radius: 15px; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px grey;
+    /* background-color: black; */
+  }
+  .join{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 15px;
+  }
+  .subscription{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    /* background-color: transparent; */
+  }
+  .subscription button{
+    width: 300px;
+  }
+  .why-us{
+    border-radius: 0 0 0 15px;
+  }
 }
